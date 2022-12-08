@@ -1,0 +1,148 @@
+#prising_title {
+    color: black;
+    padding-top: 100px;
+    
+
+}
+
+#prising_home {
+    background: #f2f2fe;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+    align-items: center;
+    height: auto;
+}
+#prising_icon { 
+      margin-bottom: 80px;
+
+      
+}
+
+
+
+
+#prising_iconn {
+    background: #FFFFFF;
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 30px 0px 40px 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#prising_iconnn {
+    background: #FFFFFF;
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 30px 0px 40px 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;  
+}
+
+.pricing-header {
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
+}
+.pricing-title {
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.25px;
+    color: #1e1e1e;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+}
+.pricing-body {
+    margin-bottom: 40px;
+}
+.price-wrapper {
+
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    background: #8261ee;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+.price-wrapperr {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    background-color: #ff589e;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+.list{
+    text-decoration: none;
+}
+.list .active {
+    color: #7a7a7a;
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+.list .activ {
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #7a7a7a;
+    text-decoration: line-through;
+}
+.list .activ{
+    list-style: none;
+}
+.pricing-footer {
+    text-align: center;
+    margin-top: 50px;
+}
+a {
+    text-decoration: none ;
+}
+.main-button {
+    margin-top: 12px;
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #8261ee;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    border: none;
+}
+.pricing-footer .main-button:hover{
+    background: rgba(255, 0, 72, 0.688);
+}
+.currency {
+    height: 47px;
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff;
+    position: relative;
+    top: -1px;
+}
+.period {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    letter-spacing: 0.88px;
+}

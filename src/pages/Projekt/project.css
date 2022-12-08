@@ -1,0 +1,128 @@
+#pro_home {
+    margin-top: -100px;
+    max-width: 100%;
+    margin-bottom: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/fun-facts-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+}
+
+#pro {
+    position: relative;
+    z-index: 3;
+    width: 100%
+}
+
+.count {
+    height: 340px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.count .p {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 0.25px;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-top: 120px;
+
+}
+
+.count .span {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.25px;
+    position: relative;
+}
+
+.countt {
+    height: 340px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.countt .p {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 0.25px;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-top: 120px;
+    position: relative;
+
+}
+
+.countt .span {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.25px;
+}
+
+.count:after {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 32px;
+    top: 160px;
+    left: 70%;
+    background: url(../images/circle-dec.png) center center no-repeat;
+}
+
+#pro_title {
+    padding-left: 12%
+}
+.count:hover .cou:nth-child(){
+    transform: translateY(300px);
+    opacity: .5;
+}
+.cou{
+    height: auto;
+    padding-top: 20px; 
+    padding-bottom: 20px
+}
+.count strong{
+    margin-top: 0;
+}
+.count strong{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 0.25px;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-top: 120px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s 
+}
+@media screen and (max-width: 990px) {
+    .count:after {
+        background: none;
+    }
+}
+@media screen and (max-width: 780px) {
+    #pro_home{
+        height: auto;
+    }
+}

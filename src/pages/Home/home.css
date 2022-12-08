@@ -1,0 +1,118 @@
+#home_contayner {
+    max-width: 100%;
+    margin-bottom: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#home { 
+    padding-right: 15px;
+    margin-top: 20%;
+    transform: perspective(1px) translateY(-60%);
+    text-align: center;
+}
+
+#home h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 1.4px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#home p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    margin-bottom: 40px;
+    position: relative;
+}
+#hom_tit{
+    font-weight: 500;
+    font-size: 18px;
+    color: #1e1e1e;
+    letter-spacing: 0.7px;
+    margin-bottom: 5px;
+}
+#hom_text{
+    font-weight: 400;
+    font-size: 13px;
+    color: #777;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+#discov {
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #ff589e;
+    text-transform: uppercase;
+    color: #fff;
+}
+#discov:hover{
+    background: #007bff;
+    opacity: .8;
+}
+#icon_home  {
+    padding-left: -30px;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 30px;
+    background: #8261ee;
+    border-radius: 50%;
+    vertical-align: middle;
+    font-style: italic;
+}
+
+#icon_hom  {
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    vertical-align: middle;
+    
+}
+#icon_home:hover{
+    background-color: #ff589e;
+}
+
+#home_icone {
+    
+    margin-Top: -490px;
+    z-index: 9;
+    position: relative
+}
+#home_con {
+    background: #FFFFFF;
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+@media screen and (max-width: 990px) {
+    #home_icone{
+        margin-Top: 100px;
+    }
+}
+@media screen and (max-width: 1442px) {
+    #oooo{
+        margin-left: -45px;
+    }
+}

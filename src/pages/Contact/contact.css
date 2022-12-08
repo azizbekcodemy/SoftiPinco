@@ -1,0 +1,110 @@
+#con_home{
+    margin-top: 200px;
+    max-width: 100%;
+    margin-bottom: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background: #f2f2fe;
+    height: auto;
+}
+#con_title{
+    margin-top: 60px;
+    color: black;  
+}
+#name{
+    margin-bottom: 100px;
+}
+
+.con{
+    text-align: left;
+    position: relative;
+    width: 100%;
+}
+.con h5{
+    font-weight: 500;
+    font-size: 18px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    line-height: 26px
+}
+.con_text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6F8BA4;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+.label{
+    border-radius: 20px;
+}
+.name input{
+    color: #777;
+    font-size: 14px;
+    border: 1px solid #eee;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+.con3 input{
+    color: #777;
+    font-size: 14px;
+    border: 1px solid #eee;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 990px) {
+    .con3{
+        margin-Top: -40px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .con3{
+        margin-Top:none;
+    }
+}
+
+
+
+.con2 {
+    border: 1px solid #eee;
+    color: #777;
+    height: 150px;
+    resize: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+#con_icon .con_button{
+  
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #8261ee;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    border: none;
+
+}
+#con_icon .con_button:hover{
+    background: rgba(255, 0, 72, 0.688);
+}
+#con_icon{
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
